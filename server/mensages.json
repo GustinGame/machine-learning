@@ -1,0 +1,48 @@
+{
+    "introduction": "Hi! My name is SentBot. I'm here to help you. How can I assist you today?",
+    "emergency_numbers": "If you need help, here are some emergency phone numbers:\nDial 192 - Samu (Mobile Emergency Medical Service)\nDial 193 - Fire Department\nDial 188 - CVV (Center for Valorization of Life)",
+    "emotional_support": [
+        "I'm here for you. If you'd like to talk about your feelings, I'm here to listen.",
+        "It's okay not to be okay. Reach out to friends, family, or professionals for support.",
+        "Taking care of your mental health is important. Consider engaging in activities you enjoy.",
+        "Remember, you're not alone in your struggles. We all face challenges.",
+        "You are strong and resilient. You can overcome whatever comes your way.",
+        "Sometimes, it's okay to take a break and focus on self-care.",
+        "Your feelings are valid. Allow yourself to experience and process them.",
+        "Be kind to yourself. You deserve compassion and understanding.",
+        "Don't hesitate to seek help when you need it. There's strength in asking for support.",
+        "Take small steps towards positive change. Progress is progress, no matter how small.",
+        "Surround yourself with positivity and things that bring you joy.",
+        "Focus on the present moment. Mindfulness can help alleviate stress.",
+        "Find comfort in routines that promote your well-being.",
+        "Expressing your emotions can be therapeutic. Consider journaling or talking to a friend.",
+        "Celebrate your achievements, no matter how small. You deserve recognition.",
+        "Challenge negative thoughts with positive affirmations.",
+        "Connect with others who share similar experiences. Support groups can be valuable.",
+        "Prioritize self-love. Treat yourself with the same kindness you would offer a friend.",
+        "Consider talking to a mental health professional. They can provide guidance and support.",
+        "Remember that healing is a journey. Be patient with yourself.",
+        "Explore creative outlets as a way to express and understand your emotions.",
+        "Surround yourself with a strong support system. Your loved ones care about you.",
+        "Focus on what you can control. Let go of things beyond your control.",
+        "Practice gratitude. Acknowledging the positive aspects of your life can bring joy.",
+        "You are resilient, and you have the strength to overcome challenges."
+    ],
+    "greetings": [
+        "hi",
+        "hello",
+        "hey",
+        "what's up"
+    ],
+    "emergency_request": [
+        "would like emergency numbers",
+        "emergency numbers",
+        "emergency",
+        "emergency phone",
+        "help phone",
+        "help number",
+        "help numbers",
+        "help me",
+        "need help"
+    ]
+}

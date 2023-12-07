@@ -29,7 +29,6 @@ class _ChatScreenState extends State<ChatScreen> {
   final List<ChatMessage> _chatMessages = [];
 
   _sendMessage(String message) async {
-    // Call to the ChatGPT API
     final response = await http.post(
       Uri.parse(
           'http://127.0.0.1:5000/predict'), // Replace with the actual API URL
@@ -58,12 +57,7 @@ class _ChatScreenState extends State<ChatScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ChatGPT App'),
-        leading: Image.asset(
-          'assets/logo.png', // Replace with the actual image asset path
-          // width: 40, // Adjust the width as needed
-          // height: 40, // Adjust the height as needed
-        ),
+        title: const Text('SentBot App'),
       ),
       body: Column(
         children: [
