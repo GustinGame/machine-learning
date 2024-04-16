@@ -1,7 +1,8 @@
 # This is an University project
 
 This project was to make an simple site like an chat to interact with some artificial inteligence.
-The main topic was to develop an simple assistant for someone with depression or axiety disorder to help them with some of the emmergency numbers in brazil for reaching it out if the conversation was in a bad mood or if the bot notice something that signify sadness.
+
+The main topic was to develop an simple assistant for someone with depression or axiety disorder to help them with the emergency numbers in brazil for reaching it out if the conversation was in a bad mood or if the bot notice something that signify sadness.
 
 ## Process
 
