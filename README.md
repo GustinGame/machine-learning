@@ -20,6 +20,7 @@ In the final presentation we did well, and the teacher with the effort give some
 
 ## Developer Team
 This project was made by Me, my University Team of amazing people so please shout out to all of them!
+
 [Alyson Prado](mailto:alyson.prado85@gmail.com)
 
 [Emanuel Henrique](mailto:emanuelhenrique2004@gmail.com)
