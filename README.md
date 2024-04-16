@@ -22,10 +22,10 @@ In the final presentation we did well, and the teacher with the effort give some
 This project was made by Me, my University Team of amazing people so please shout out to all of them!
 [Alyson Prado](mailto:alyson.prado85@gmail.com)
 
-[Emanuel Henrique](mainto:emanuelhenrique2004@gmail.com)
+[Emanuel Henrique](mailto:emanuelhenrique2004@gmail.com)
 
-[Gustavo Henrique](mainto:Gustavogoncalves3ch@gmail.com)
+[Gustavo Henrique](mailto:Gustavogoncalves3ch@gmail.com)
 
-[Phillipe Motareli](mainto:philippe.motareli@gmail.com)
+[Phillipe Motareli](mailto:philippe.motareli@gmail.com)
 
-[Leonardo Martins](mainto:Leonardomartinez0211@gmail.com)
+[Leonardo Martins](mailto:Leonardomartinez0211@gmail.com)
