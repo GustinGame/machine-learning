@@ -1,4 +1,3 @@
-import re
 import random
 import nltk
 import json
@@ -18,9 +17,9 @@ class SentimentAnalyzer:
         sentiment_scores = self.analyzer.polarity_scores(text)
         compound_score = sentiment_scores['compound']
 
-        if compound_score >= 0.05:
+        if compound_score >= 0.1:
             return "happiness"
-        elif compound_score <= -0.05:
+        elif compound_score <= -0.02:
             return "sadness"
         else:
             return "neutral"
