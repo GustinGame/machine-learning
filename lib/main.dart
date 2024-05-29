@@ -30,10 +30,9 @@ class _ChatScreenState extends State<ChatScreen> {
 
   _sendMessage(String message) async {
     final response = await http.post(
-      Uri.parse(
-          'http://127.0.0.1:5000/predict'), // Replace with the actual API URL
+      Uri.parse('http://127.0.0.1:5000/api'), // Substitua pela URL da sua API
       headers: {
-        'Content-Type': 'application/json', // Set the Content-Type header
+        'Content-Type': 'application/json', // Defina o cabeçalho Content-Type
       },
       body: jsonEncode({'message': message}),
     );
@@ -43,13 +42,20 @@ class _ChatScreenState extends State<ChatScreen> {
       setState(() {
         _chatMessages.add(ChatMessage(
           text: message,
-          isUser: true, // Indicate that the message is from the user
+          isUser: true, // Indica que a mensagem é do usuário
         ));
         _chatMessages.add(ChatMessage(
           text: responseBody['response'],
-          isUser: false, // Indicate that the message is from the ChatGPT API
+          isUser: false, // Indica que a mensagem é da API ChatGPT
         ));
       });
+    }
+  }
+
+  void _handleSubmitted(String text) {
+    if (text.isNotEmpty) {
+      _sendMessage(text);
+      _messageController.clear();
     }
   }
 
@@ -57,7 +63,16 @@ class _ChatScreenState extends State<ChatScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('SentBot App'),
+        title: Row(
+          children: [
+            CircleAvatar(
+              backgroundImage: AssetImage('lib/assets/images/logo.png'),
+              radius: 20, // Ajuste o raio conforme necessário
+            ),
+            const SizedBox(width: 10), // Espaço entre o logo e o texto
+            const Text('SentBot App'),
+          ],
+        ),
       ),
       body: Column(
         children: [
@@ -79,16 +94,14 @@ class _ChatScreenState extends State<ChatScreen> {
                     decoration: const InputDecoration(
                       hintText: 'Type your message...',
                     ),
+                    onSubmitted: _handleSubmitted,
                   ),
                 ),
                 IconButton(
                   icon: const Icon(Icons.send),
                   onPressed: () {
                     String message = _messageController.text;
-                    if (message.isNotEmpty) {
-                      _sendMessage(message);
-                      _messageController.clear();
-                    }
+                    _handleSubmitted(message);
                   },
                 ),
               ],

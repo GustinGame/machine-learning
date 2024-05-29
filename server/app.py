@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 sentiment_chatbot = SentimentChatbot()
 
-@app.route('/predict', methods=['POST'])
+@app.route('/api', methods=['POST'])
 def predict():
     try:
         data = request.get_json()
