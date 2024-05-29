@@ -10,10 +10,11 @@ To run the program it just run on windows the init.bat and will run normaly on c
 
 1. Run the API and the sentBot:
     ```
+    cd server
     python app.py
     ```
 
-2. On a separeted terminal, run the flutter in the main folder:
+2. On a separeted terminal, run the flutter in the main of the aplication folder:
     ```
     flutter run -d chrome
     ```
